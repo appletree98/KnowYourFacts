@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.edu.rp.desmond.knowyourfacts.Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="343dp"
+            android:text="I’m Harambe, and this is my zoo enclosure.
+            I work here with my zoo keeper and my friend,
+            Cecil the lion. Everything in here has a story
+            and a price. One thing I’ve learned after 21 years –
+             you never know WHO is gonna come over that fence" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Colour" />
+    </LinearLayout>
+
+</FrameLayout>
